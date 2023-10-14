@@ -72,7 +72,7 @@
             if (score < maxQuestions) {
                 generateQuestion();
             } else {
-                resultElement.innerText = `Game Over! Score: ${score}/${maxQuestions}`;
+                resultElement.innerText = `Clear the game Score: ${score}/${maxQuestions}`;
                 goalElement.innerText = "Congratulations! You've reached the goal.";
                 document.getElementById('answer').disabled = true;
             }
